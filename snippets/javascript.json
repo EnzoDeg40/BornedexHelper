@@ -1,0 +1,16 @@
+{
+    "Borne template": {
+        "prefix": "newborne",
+        "body": [
+            "{ \"id\": ${1:999}, \"nom\": \"${2:?}\", \"x\": \"${3:0}\", \"y\": \"${4:0}\", \"alt\": \"${5:inconnue}\", \"ville\": \"${6:inconnue}\" },"
+        ],
+        "description": "Template pour l'ajout dZ'une borne"
+    },
+    "Borne template empty":{
+        "prefix": "newborneempty",
+        "body": [
+            "{ \"id\": ${1}, \"nom\": \"${2}\", \"x\": \"${3}\", \"y\": \"${4}\", \"alt\": \"${5}\", \"ville\": \"${6}\" }"
+        ],
+        "description": "Template vide pour l'ajout d'une borne"
+    }
+}

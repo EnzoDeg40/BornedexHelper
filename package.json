@@ -1,0 +1,37 @@
+{
+  "name": "bornedexhelper",
+  "displayName": "Bornedex Helper",
+  "version": "0.0.1",
+  "publisher": "EdStudio",
+  "description": "Un snippet pour l'ajout de borne dans les fichiers JS",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "icon": "https://github.com/EnzoDeg40/BornedexHelper/assets/logo.png",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "main": "extension.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoDeg40/BornedexHelper.git"
+  },
+  "author": "Enzo Degraeve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoDeg40/BornedexHelper/issues"
+  },
+  "homepage": "https://github.com/EnzoDeg40/BornedexHelper#readme"
+}
