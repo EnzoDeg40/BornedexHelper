@@ -9,3 +9,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.1] - 2023-05-14
 
 - Inital release
+
+## [0.0.2] - 2023-05-14
+
+### Fixed
+
+- Fixed logo of extension

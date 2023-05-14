@@ -1,13 +1,13 @@
 {
   "name": "bornedexhelper",
   "displayName": "Bornedex Helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "EdStudio",
   "description": "Un snippet pour l'ajout de borne dans les fichiers JS",
   "engines": {
     "vscode": "^1.58.0"
   },
-  "icon": "https://github.com/EnzoDeg40/BornedexHelper/assets/logo.png",
+  "icon": "./assets/icon.png",
   "activationEvents": [
     "onStartupFinished"
   ],
